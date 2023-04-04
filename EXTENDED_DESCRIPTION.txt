@@ -1,0 +1,8 @@
+Until EEG sensors become cheaper or other bio monitoring systems are available / feasable for this project i will be using 
+hall effect sensors and modules. 
+This will give me time to work on the custom kali image to run on the AR device which i am currently developing. 
+It will also be practice with an 8 channel / 8bit transmission to a kali machine. 
+(Should be done by EOD tomorrow, waiting on part delivery) 
+
+Basically the plan right now is to have 8 hall effect sensors on each finger digit relaying GPIO signal to a RPI0W, this is where the RPI0W prosesses the data 
+and returns it as a variable. I am now planning a way to connect this to the Pi400 and Pimoroni Augmented reality system which will run the modified Kali OS. 
